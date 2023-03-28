@@ -1,0 +1,30 @@
+{
+    "name": "illegal/laravel-utils",
+    "description": "Laravel Utils is a collection of useful tools for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincenzo Petrucci",
+            "email": "vincenzo.petrucci@gmail.com",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9|^10"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Illegal\\LaravelUtils\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Illegal\\LaravelUtils\\Tests\\": "tests/"
+        }
+    }
+}
