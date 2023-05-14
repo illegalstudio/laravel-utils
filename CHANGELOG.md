@@ -1,6 +1,12 @@
 # Unreleased
 
-# v.1.1
+# v1.2
+
+**Release date**: 2023-05-14
+
+- Added `Sortable` trait, a livewire helper to sort lists.
+
+# v1.1
 
 **Release date**: 2023-04-30
 
